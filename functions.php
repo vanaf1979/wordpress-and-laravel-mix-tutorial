@@ -2,7 +2,7 @@
 /*!
 Theme Name:         Mix tutorial
 Theme URI:          https://vanaf1979.nl/
-Description:        Laravel mix tutorial.
+Description:        WordPress and Laravel Mix tutorial.
 Version:            1.0.0
 Author:             Vanaf1979
 Author URI:         https://vanaf1979.nl
