@@ -1,0 +1,28 @@
+{
+  "name": "mix-tutorial",
+  "version": "1.0.0",
+  "description": "laravel mix tutorial",
+  "main": "index.js",
+  "keywords": [],
+  "author": {
+    "name": "Vanaf1979",
+    "email": "contact@vanaf1979.nl",
+    "url": "https://vanaf1979.nl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vanaf1979/va79-base-theme"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "laravel-mix": "^4.0.14",
+    "sass": "^1.16.1",
+    "sass-loader": "^7.1.0"
+  }
+}
