@@ -27,6 +27,7 @@ function mix_tutorial_enqueue_scripts() {
   
     $theme = wp_get_theme();
 
+    wp_enqueue_script( $theme->get('TextDomain') . '-jquery' , 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js' , array() , '3.3.1' , true );
     wp_enqueue_script( $theme->get('TextDomain') . '-app' , get_template_directory_uri() . '/public/js/app.js' , array() , $theme->get('Version') , true );
 
 }
